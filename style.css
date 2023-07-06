@@ -1,0 +1,90 @@
+body,h1,h2,h3,h4,h5,h6,p,span,div{
+    padding: 0px;
+    margin: 0px;
+}
+.contaner{
+    
+    background-image: url(Untitled.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+}
+@font-face {
+    font-family: txtface;
+    src: url(fonts/DS-DIGIT.TTF);
+}
+.cntr{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 50px;
+cursor: pointer;
+   user-select: none;
+    text-shadow: 0 0 10px #fff,
+    0 0 30px #059ef7, 
+    0 0 40px #059ef7,
+    0 0 50px #059ef7;
+    font-family: txtface;
+}
+
+
+ .button-43 {
+   background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+   border-radius: .5rem;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   font-size: 14px;
+   justify-content: center;
+   text-decoration: none;
+   border: 0;
+   cursor: pointer;
+   user-select: none;
+ }
+ 
+ .button-43:hover {
+   background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+ }
+ 
+ @media (min-width: 768px) {
+   .button-43 {
+       padding-top: 10px;
+       padding-bottom: 10px;
+     width: 90px;
+   }
+ }
+ .name{
+     text-align: center;
+     font-size: 60px;    
+     padding-bottom: 40px;
+     text-shadow: 0 0 10px #fff,
+    0 0 30px #059ef7, 
+    0 0 40px #059ef7,
+    0 0 50px #059ef7;
+    font-family: namefamily;
+    }
+    @font-face {
+        font-family: namefamily;
+        src: url(fonts/Fosfolipid-L3jmy.otf);
+    }
+
+    
+ @media (max-width: 240px){
+   .name{
+     font-size: 20px;
+     padding-bottom: 20px;
+   }
+   .cntr{
+     font-size: 30px;
+     top: 40%;
+   }
+   .start{
+     
+    margin-top: 20px;
+   }
+   .button-43{
+     padding: 5px;
+     width: 130px;
+   }
+ }
